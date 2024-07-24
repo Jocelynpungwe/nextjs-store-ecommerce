@@ -37,11 +37,7 @@ const SubmitReview = ({ productId }: { productId: string }) => {
               value={user?.imageUrl || ''}
             />
             <RatingInput name="rating" />
-            <TextAreaInput
-              name="comment"
-              labelText="feedback"
-              defaultValue="Outstanding product!!!"
-            />
+            <TextAreaInput name="comment" labelText="feedback" />
             <SubmitButton className="mt-4" />
           </FormContainer>
         </Card>

@@ -19,7 +19,6 @@ const Hero = () => {
           <Link href="/products">Our Products</Link>
         </Button>
       </div>
-
       <HeroCarousel />
     </section>
   )
