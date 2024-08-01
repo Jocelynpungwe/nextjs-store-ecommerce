@@ -12,7 +12,7 @@ const stripePromise = loadStripe(
   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string
 )
 
-const page = () => {
+const CheckoutPage = () => {
   const searchParams = useSearchParams()
 
   const orderId = searchParams.get('orderId')
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default CheckoutPage
